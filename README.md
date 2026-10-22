@@ -97,7 +97,7 @@ On Linux/macOS, you need Python ≥ 3.12.
    On Linux/macOS (Python ≥ 3.12):
 
    ```bash
-   python argos.py check <exercise-id>
+   python3.14 argos.py check <exercise-id>
    ```
 
    Example, for exercise 0001 (back at the project root):
