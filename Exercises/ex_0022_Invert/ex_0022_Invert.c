@@ -1,9 +1,21 @@
 // Author: HE-Arc
 
-// Standard includes
-
 // Local includes
 #include "ex_0022_Invert.h"
 
-// Function definitions
-// TODO: implement ex_0022_Invert
+int ex_0022_Invert(int n) {
+    if (n < 0) {
+        return -1;
+    }
+
+    int inverted = 0;
+
+    while (n > 0) {
+        int number = n % 10;
+        inverted = inverted * 10 + number;
+
+        n = n / 10;
+    }
+
+    return inverted;
+}
